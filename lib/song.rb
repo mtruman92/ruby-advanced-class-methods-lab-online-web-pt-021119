@@ -46,6 +46,7 @@ def self.new_from_filename(name)
   song.name = name.split(/[\.\-]/)
   song.artist_name = song[0].strip
   return song
+end
 
 def self.create_from_filename(name)
   song = self.new 
